@@ -1,0 +1,61 @@
+{
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.largeFileOptimizations": false,
+    "editor.guides.bracketPairs": "active",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
+    "explorer.compactFolders": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.fontStyleItalic": true,
+    "thunder-client.customMethods": "search",
+    "[typescript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "catppuccin-perfect-dark",
+    "[json]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "editor.defaultFormatter": "biomejs.biome",
+    "terminal.integrated.env.windows": {},
+    "workbench.editorAssociations": {
+      "*.bson": "default"
+    },
+    "editor.renderLineHighlight": "gutter",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".editor-actions": "display: none"
+    },
+    "apc.listRow": {
+      "height": 24
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "package.json": "tsconfig*, pnpmlock*, package-lock*, bun*, biome*",
+      ".env": ".env*, .git*, docker*, *.md"
+    },
+    "terminal.integrated.fontSize": 14,
+    "explorer.confirmPasteNative": false,
+    "notebook.defaultFormatter": "biomejs.biome",
+    "workbench.colorTheme": "Rosé Pine",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorCustomizations": {
+      "terminal.background": "#00000000"
+    },
+}
