@@ -1,8 +1,7 @@
 {
     "explorer.confirmDelete": false,
-    "files.autoSave": "afterDelay",
     "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.donotShowInfoMsg": true,
+    // "liveServer.settings.donotShowInfoMsg": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "JetBrains Mono",
     "editor.largeFileOptimizations": false,
@@ -21,7 +20,6 @@
       "editor.defaultFormatter": "biomejs.biome"
     },
     "symbols.hidesExplorerArrows": false,
-    "workbench.iconTheme": "catppuccin-perfect-dark",
     "[json]": {
       "editor.defaultFormatter": "biomejs.biome"
     },
@@ -35,7 +33,6 @@
     },
     "editor.renderLineHighlight": "gutter",
     "workbench.startupEditor": "newUntitledFile",
-    "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
     "apc.stylesheet": {
@@ -48,14 +45,110 @@
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
       "package.json": "tsconfig*, pnpmlock*, package-lock*, bun*, biome*",
-      ".env": ".env*, .git*, docker*, *.md"
+      ".gitignore": ".env, .env*, .git*, docker*, .docker*, commitlint.config.*",
+      "main.go": "go.mod, go.sum",
+      "README.md": "LICENSE, CHANGELOG*, CONTRIBUTING*, SECURITY*, CODE_OF_CONDUCT*",
     },
     "terminal.integrated.fontSize": 14,
     "explorer.confirmPasteNative": false,
     "notebook.defaultFormatter": "biomejs.biome",
-    "workbench.colorTheme": "Rosé Pine",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.colorCustomizations": {
-      "terminal.background": "#00000000"
+      "terminal.background": "#00000000",
+      "[Vira*]": {
+        "statusBar.debuggingBackground": "#80CBC433",
+        "statusBar.debuggingForeground": "#80CBC4",
+        "toolbar.activeBackground": "#80CBC426",
+        "button.background": "#80CBC4",
+        "button.hoverBackground": "#80CBC4cc",
+        "extensionButton.separator": "#80CBC433",
+        "extensionButton.background": "#80CBC414",
+        "extensionButton.foreground": "#80CBC4",
+        "extensionButton.hoverBackground": "#80CBC433",
+        "extensionButton.prominentForeground": "#80CBC4",
+        "extensionButton.prominentBackground": "#80CBC414",
+        "extensionButton.prominentHoverBackground": "#80CBC433",
+        "activityBarBadge.background": "#80CBC4",
+        "activityBar.activeBorder": "#80CBC4",
+        "activityBarTop.activeBorder": "#80CBC4",
+        "list.inactiveSelectionIconForeground": "#80CBC4",
+        "list.activeSelectionForeground": "#80CBC4",
+        "list.inactiveSelectionForeground": "#80CBC4",
+        "list.highlightForeground": "#80CBC4",
+        "sash.hoverBorder": "#80CBC480",
+        "list.activeSelectionIconForeground": "#80CBC4",
+        "scrollbarSlider.activeBackground": "#80CBC480",
+        "editorSuggestWidget.highlightForeground": "#80CBC4",
+        "textLink.foreground": "#80CBC4",
+        "progressBar.background": "#80CBC4",
+        "pickerGroup.foreground": "#80CBC4",
+        "tab.activeBorder": "#80CBC4",
+        "tab.activeBorderTop": "#80CBC400",
+        "tab.unfocusedActiveBorder": "#80CBC4",
+        "tab.unfocusedActiveBorderTop": "#80CBC400",
+        "tab.activeModifiedBorder": "#80CBC400",
+        "notificationLink.foreground": "#80CBC4",
+        "editorWidget.resizeBorder": "#80CBC4",
+        "editorWidget.border": "#80CBC4",
+        "settings.modifiedItemIndicator": "#80CBC4",
+        "panelTitle.activeBorder": "#80CBC4",
+        "breadcrumb.activeSelectionForeground": "#80CBC4",
+        "menu.selectionForeground": "#80CBC4",
+        "menubar.selectionForeground": "#80CBC4",
+        "editor.findMatchBorder": "#80CBC4",
+        "selection.background": "#80CBC440",
+        "statusBarItem.remoteBackground": "#80CBC414",
+        "statusBarItem.remoteHoverBackground": "#80CBC4",
+        "statusBarItem.remoteForeground": "#80CBC4",
+        "notebook.inactiveFocusedCellBorder": "#80CBC480",
+        "commandCenter.activeBorder": "#80CBC480",
+        "chat.slashCommandForeground": "#80CBC4",
+        "chat.avatarForeground": "#80CBC4",
+        "activityBarBadge.foreground": "#000000",
+        "button.foreground": "#000000",
+        "statusBarItem.remoteHoverForeground": "#000000"
+      }
     },
+    "workbench.activityBar.location": "top",
+    "files.autoSave": "afterDelay",
+    "editor.cursorBlinking": "phase",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.productIconTheme": "fluent-icons",
+    "accessibility.signals.chatEditModifiedFile": {
+      "sound": "off"
+    },
+    "accessibility.signalOptions.volume": 0,
+    "go.toolsManagement.autoUpdate": true,
+    "go.diagnostic.vulncheck": "Imports",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "apc.imports": [
+      "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "workbench.settings.applyToAllProfiles": [
+      "workbench.colorCustomizations"
+    ],
+    "biome.suggestInstallingGlobally": false,
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false,
+        "editor.codeActionsOnSave": {
+
+    "source.fixAll.biome": "explicit",
+  },
+  "workbench.editor.editorActionsLocation": "hidden",
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "zig.zls.enabled": "on",
+  "workbench.iconTheme": "catppuccin-macchiato",
+
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.ignoredError": true,
+  "go.inlayHints.parameterNames": true,
+  "workbench.colorTheme": "Sequoia Moonlight",
+  "gitlens.advanced.messages": {
+    "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true
+  },
+  "workbench.preferredDarkColorTheme": "Vesper",
+  "chat.commandCenter.enabled": false,
+  "chat.agentsControl.enabled": false
 }
+
